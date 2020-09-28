@@ -5,4 +5,4 @@ from .models import Property
 class PropertySerializer(serializers.ModelSerializer):
     class Meta:
         model = Property
-        fields = ('image', 'title', 'description', 'location', 'price')
+        fields = ('image', 'title', 'description', 'location', 'price', 'size')
