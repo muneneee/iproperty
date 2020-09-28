@@ -8,6 +8,7 @@ class Property(models.Model):
     description = models.TextField()
     location = models.CharField(max_length=40)
     price = models.DecimalField(max_digits=12, decimal_places=2)
+    size = models.CharField(max_length=40)
 
 
     def __str__(self):
